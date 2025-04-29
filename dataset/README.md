@@ -1,6 +1,6 @@
 # Datasets
 
-This directory contains the datasets that were used in our paper.
+This directory contains the datasets (BAP/ByteWeight and `FuncPEval`) that were used in our paper.
 
 Each dataset is given with the following structure:
 ```
@@ -25,14 +25,19 @@ The directory `ground-truth` contains the ground truth files for the samples.
 ## [BAP/ByteWeight](byteweight)
 The BAP/ByteWeight dataset that was used in the paper [BYTEWEIGHT: Learning to Recognize Functions in Binary Code](https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/bao).
 
-## [Chromium v109](chrome)
-A release of Chromium v109 published [here (x86)](http://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win/1069956/) and [here (x86-64)](http://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win_x64/1069922/).
-Due to upload size limitation, the dataset has to be downloaded.
+
+## FuncPEval
+
+The FuncPEval dataset has been introduced in our paper `Padding Matters – Exploring Function Detection in PE Files`. It consists of the Chromium and Conti samples described below.
+
+### [Chromium v109](chromium)
+A release of Chromium v109 published [here (x86)](http://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win/1069956/) (`chrome.dll` has a SHA256 hash value of `1ce8b9551709581688a8199a0e0fcb48cfcac7fadf3671622ea8e66fbe39151f`) and [here (x86-64)](http://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win_x64/1069922/) (`chrome.dll` has a SHA256 hash value of `55f05fe24ebdf8eb263f75e88c8a71a42fb6240b59340a9abf9671ffe79a4f4a`).
+Due to size limitation, the samples have to be downloaded separately.
 To download the dataset, run the script [`download_chromium_dataset.sh`](download_chromium_dataset.sh).
 
-## [Conti v3](conti)
+### [Conti v3](conti)
 A leaked version of the Conti ransomware. The resources can be found [here](https://github.com/vxunderground/MalwareSourceCode/blob/main/Win32/Ransomware/Win32.Conti.c.7z).
-We used Microsoft Visual Studio 2022 to build the binaries.
+Microsoft Visual Studio 2022 has been used to build the binaries.
 As the dataset contains malware, we only provide a password-protected ZIP file containing the binaries (password `infected`).
 To unpack the binaries, run the script [`unzip_conti_dataset.sh`](unzip_conti_dataset.sh).
 Keep in mind that this might trigger antivirus software, especially on Windows.
