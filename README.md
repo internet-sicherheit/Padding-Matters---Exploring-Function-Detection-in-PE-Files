@@ -1,8 +1,9 @@
 # Padding Matters - Exploring Function Detection in PE Files
 
 ## PUBLICATIONS
-This repository contains the artifacts for our paper: Raphael Springer, Alexander Schmitz, Artur Leinweber, Tobias Urban, and Christian Dietrich `Padding Matters – Exploring Function Detection in PE Files (Dataset/Tool Paper)`, to appear in the 15th ACM Conference on Data and Application Security and Privacy (CODASPY ’25), June 2025.
+This repository contains the artifacts for our paper: Raphael Springer, Alexander Schmitz, Artur Leinweber, Tobias Urban, and Christian Dietrich [`Padding Matters – Exploring Function Detection in PE Files (Dataset/Tool Paper)`](https://dl.acm.org/doi/10.1145/3714393.3726003), published in the 15th ACM Conference on Data and Application Security and Privacy (CODASPY ’25), June 2025.
 
+An extended version of the paper, including additional findings, is available on arXiv: https://arxiv.org/abs/2504.21520
 
 ## ARTIFACTS
 Each directory contains a `READMDE.md` file that provides further information.
