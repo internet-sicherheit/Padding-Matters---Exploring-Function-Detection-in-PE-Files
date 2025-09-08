@@ -5,6 +5,8 @@ This repository contains the artifacts for our paper: Raphael Springer, Alexande
 
 An extended version of the paper, including additional findings, is available on arXiv: https://arxiv.org/abs/2504.21520
 
+A rerecording of the presentation is available on [YouTube](https://youtu.be/lgzrcNY65uc) and the slides of the presentation are available on our [group website](https://threatlab.if-is.net/wp-content/uploads/2025/09/Padding-Matters-%E2%80%93-Exploring-Function-Detection-in-PE-Files-%E2%80%93-Presentation-.pdf).
+
 ## ARTIFACTS
 Each directory contains a `READMDE.md` file that provides further information.
 
